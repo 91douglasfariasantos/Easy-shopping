@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamento Imobiliário Lavvi</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Lançamento Imobiliário Lavvi</h1>
+        <p>Seu novo lar em São Paulo.</p>
+    </header>
+    
+    <div class="container">
+        <!-- Seções existentes: Galeria, Localização, Detalhes -->
+        <section class="gallery">
+            <h2>Fotos do Empreendimento</h2>
+            <img src="foto1.jpg" alt="Foto 1">
+            <img src="foto2.jpg" alt="Foto 2">
+        </section>
+        
+        <section class="location">
+            <h2>Localização</h2>
+            <p>Localizado em São Paulo, próximo a diversos pontos de interesse.</p>
+            <div id="map" style="height: 400px; width: 100%;"></div>
+        </section>
+        
+        <section class="details">
+            <h2>Detalhes da Propriedade</h2>
+            <div class="info">
+                <div class="info-item">
+                    <h3>Dormitórios</h3>
+                    <p>3 Dormitórios</p>
+                </div>
+                <div class="info-item">
+                    <h3>Vagas de Garagem</h3>
+                    <p>2 Vagas</p>
+                </div>
+                <div class="info-item">
+                    <h3>Preço</h3>
+                    <p>A partir de R$ 500,000</p>
+                </div>
+                <div class="info-item">
+                    <h3>Formas de Pagamento</h3>
+                    <p>Financiamento, Consórcio, à Vista</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulário de Contato -->
+        <section id="contact">
+            <h2>Entre em Contato</h2>
+            <form>
+                <div>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="phone">Celular:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Botão Flutuante do WhatsApp -->
+    <a href="https://wa.me/SEU_NUMERO_WHATSAPP" class="whatsapp-button" target="_blank">
+        <img src="whatsapp-icon.png" alt="WhatsApp">
+    </a>
+</body>
+</html>
